@@ -1,0 +1,74 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    
+    background-image: url(../res/tt-2.jpg) ;
+    background-size: cover ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  width:100%;
+  height:60%;
+  background-color :rgb(73, 71, 69) ; 
+}
+ 
+nav p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(216, 241, 103);
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+nav ul {
+    float: left;
+}
+
+nav ul li {
+   float:left;
+   list-style:none;
+   position: relative;
+  
+}
+
+nav ul li a{
+    display:block;
+    font-family: arial;
+    color:white;
+    font-size: 16px;
+    padding : 22px 14px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    transition: all ease 0.5s;
+    background-color: rgb(248, 232, 7);
+    
+}
+
+nav ul li ul  {
+    display: none;
+    position:absolute;
+    background-color: rgb(123, 182, 197);
+
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li  {
+    width: 180px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: rgb(133, 102, 133);
+}
